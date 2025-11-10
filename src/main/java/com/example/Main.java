@@ -10,6 +10,7 @@ public class Main{
     static Connection connection;
     // Establishes connection to PostgreSQL and executes the CRUD operations
     public static void main(String[] args) {
+        // Database credentials
         String url = "jdbc:postgresql://localhost:5433/Students";
         String user = "postgres";
         String password = "admin";
